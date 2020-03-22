@@ -10,6 +10,7 @@ import { NotFoundPageComponent } from './componentes/not-found-page/not-found-pa
 const routes: Routes = [
   {path: '', component: LoginPageComponent},
   {path: 'register', component: RegisterPageComponent},
+  {path: 'login', component: LoginPageComponent},
   {path: 'principal', component: PrincipalPageComponent},
   {path: '**', component: NotFoundPageComponent}
 
